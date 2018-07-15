@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/btn_1k_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/mifare_classic_1k"
+        android:background="@drawable/button_round"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textColor="@color/button_text_color"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/btn_ultralight_c_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:text="@string/mifare_ultralight_c"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:typeface="sans"
+        android:textColor="@color/button_text_color"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>

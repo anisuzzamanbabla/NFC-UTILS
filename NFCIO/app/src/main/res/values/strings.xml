@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">NFC I/O</string>
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_details">Mifare Classic 1k</string>
+    <string name="title_activity_mifare_ultralight_c">Mifare Ultralight C</string>
+    <string name="title_activity_mifare_classic1k_write">Mifare Classic 1k</string>
+    <string name="title_activity_mifare_ultralight_cwrite">Card Write</string>
+    <string name="mifare_classic_1k">Mifare Classic 1k</string>
+    <string name="uid">UID</string>
+    <string name="card_type">Card Type</string>
+    <string name="memory">Memory</string>
+    <string name="number_of_sector">Number of Sector</string>
+    <string name="number_of_block">Number of Block</string>
+    <string name="sector_and_block_values">Sector and Block Values:</string>
+    <string name="hex_value">Hex Value</string>e
+    <string name="us_ascii_value">US-ASCII Value</string>
+    <string name="sector">Sector</string>
+    <string name="write">Write</string>
+    <string name="mifare_ultralight_c">Mifare Ultralight C</string>
+    <string name="page_size">Page Size</string>
+    <string name="page_count">Page Count</string>
+    <string name="page_value">Page Value:</string>
+    <string name="page">Page</string>
+    <string name="add_unit_id">ca-app-pub-9124248919308413/9465799285</string>
+    <string name="beyond_on_infinity">Beyond The Infinity</string>
+    <string name="uc_help_text">RED Color blocks (Page #0 to #3) and page(#40 to #43) or page(#40 to #41) are manufacturer area. You can not modify this block. This blocks are for OTP, manufacturer data, and locking bits. </string>
+    <string name="c_1k_help_text">RED Color blocks are manufacturer area. You can not modify this block. This blocks are used for locking. </string>
+    <string name="_ok">OK</string>
+    <string name="no_nfc">To run this application Your device must have NFC Technology. Unfortunately Your device does not have NFC.Sorry for this inconvenience. Please press OK to exit.</string>
+    <string name="nfc_disabled">Without NFC You cannot read Tags.Currently NFC is not enabled in your device. Please go to the NFC settings and enable NFC.</string>
+    <string name="tap_your_card">Tap Your Card</string>
+    <string name="nfc_write">NFC Write</string>
+    <string name="authentication_failed">Authentication Failed! Please try with another card.</string>
+    <string name="app_exit">Are you really want to exit NFC I/O ?</string>
+    <string name="_cancel">Cancel</string>
+    <string name="welcome_nfc_note">Welcome To NFC World!</string>
+    <string name="about_us">About Us</string>
+    <string name="menu">menu</string>
+    <string name="tag_info">Tag Info</string>
+    <string name="title_activity_tag_info">Tag Information</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_tag_info_dialog">Tag Information</string>
+    <string name="title_activity_tag_info_classic1k">Mifare Classic Tag Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tag_info_ultralight_c">Mifare Ultralight Tag Info</string>
+    <string name="tag_discover">Tag Discover</string>
+    <string name="card_tag_not_found">Sorry! This tag is not familiar to us. Please try again with different card.</string>
+    <string name="card_support">Card Support</string>
+    <string name="supported_tag_type">Sorry Only Mifare Classic 1k and Mifare Ultralight C are supported in this apps.</string>
+    <string name="card_info">Card Information</string>
+    <string name="card_info_not_found">Sorry! Card Information not found. Please try again with different card.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_language_change">Change Language</string>
+    <string name="eng_lang">English (United States)</string>
+    <string name="bang_lang">বাংলা</string>
+    <string name="germ_lang">German</string>
+    <string name="span_lang">Spain</string>
+    <string name="frnch_lang">France</string>
+    <string name="rush_lang">Russia</string>
+    <string name="resticted_lang">This feature are available only pro-version.</string>
+    <string name="language_change">Language Change</string>
+    <string name="recommend_to_a_friend">Recommend to a friend</string>
+    <string name="lang_change_diaglog">Language Changes</string>
+    <string name="dialog_wait_mess">Please wait...</string>
+    <string name="adapter_sector_number">Sector #</string>
+    <string name="adapter_null">" NULL"</string>
+    <string name="adapter_page1">Page 0 to 3</string>
+    <string name="adapter_page2">Page 40 to 43</string>
+    <string name="adapter_page3">Page 40 to 41</string>
+    <string name="to">" to "</string>
+    <string name="write_1_value">Write block #1 value</string>
+    <string name="write_2_values">Write block #2 value</string>
+    <string name="write_block">Write block #</string>
+    <string name="values">" value"</string>
+    <string name="write_page">Write page #</string>
+    <string name="app_share">Yahoo!!! I am using this apps for control my NFC card, you can try this. It is so simple and very user friendly. \n\nhttps://play.google.com/store/apps/details?id=com.nfcutils.app</string>
+    <string name="mfc_1k_details">
+        <![CDATA[
+            "<p>The MIFARE Classic card is fundamentally just a memory storage device, where the memory is divided into segments and blocks with simple security mechanisms for access control. They are ASIC-based and have limited computational power. Thanks to their reliability and low cost, those cards are widely used for electronic wallet, access control, corporate ID cards, transportation or stadium ticketing.</p>\n"
+                "<h3><strong>Mifare Classic 1k:</strong></h3>\n"
+                "<ul style=\"list-style-type: disc;\">\n"
+                "<li><span style=\"color: #0000ff;\">The MIFARE Classic 1K offers <span style=\"color: #ff0000;\">1024 bytes</span> of data storage, split into 16 sectors; each sector is protected by two different keys, called A and B.</span></li>\n"
+                "<li><span style=\"color: #0000ff;\">Each key can be programmed to allow operations such as reading, writing, increasing value blocks, etc.</span></li>\n"
+                "</ul>\n"
+                "<h3><strong>Mifare Classic 4k:</strong></h3>\n"
+                "<ul style=\"list-style-type: disc;\">\n"
+                "<li><span style=\"color: #0000ff;\">MIFARE Classic 4K offers <span style=\"color: #ff0000;\">4096 bytes</span> split into forty sectors, of which 32 are same size as in the 1K with eight more that are quadruple size sectors.</span></li>\n"
+                "</ul>\n"
+                "<h3><strong>Mifare Classic mini:</strong></h3>\n"
+                "<ul style=\"list-style-type: disc;\">\n"
+                "<li><span style=\"color: #0000ff;\">MIFARE Classic mini offers <span style=\"color: #ff0000;\">320 bytes</span> split into five sectors. </span></li>\n"
+                "<li><span style=\"color: #0000ff;\">For each of these card types, <span style=\"color: #ff0000;\">16 bytes</span> per sector are reserved for the keys and access conditions and can not normally be used for user data. </span></li>\n"
+                "<li><span style=\"color: #0000ff;\">Also, the very first 16 bytes contain the serial number of the card and certain other manufacturer data and are read only.</span></li>\n"
+                "</ul>\n"
+                "<h3><strong>Key Applications:</strong></h3>\n"
+                "<ol style=\"list-style-type: lower-roman;\">\n"
+                "<li><span style=\"color: #0000ff;\">Limited-use tickets in public transport</span></li>\n"
+                "<li><span style=\"color: #0000ff;\">Event ticketing (stadiums, exhibitions, leisure parks)</span></li>\n"
+                "<li><span style=\"color: #0000ff;\">Loyalty</span></li>\n"
+                "</ol>\n" 
+                "<p>That brings the net storage capacity of these cards down to 752 bytes for MIFARE Classic 1K, 3440 bytes for MIFARE Classic 4K, and 224 bytes for Mini. It uses an NXP proprietary security protocol (Crypto-1) for authentication and ciphering.</p>\n"
+                "<p>The Samsung TecTile NFC tag stickers use MIFARE Classic chips.<br />This means only devices with an NXP NFC controller chip can read or write these tags.</p>\n"
+                "<p>At the moment BlackBerry phones, the Nokia Lumia 610 (August 2012), the Google Nexus 4, Google Nexus 7 LTE and Nexus 10 (October 2013) can't read/write TecTile stickers.</p>\n"
+                "<h3>&nbsp;</h3>\n"
+        ]]>
+    </string>
+    
+    <string name="ulc_details">
+        <![CDATA[
+            "<p>MIFARE Ultralight C is part of NXP's low-cost MIFARE offering (disposable ticket). With Triple DES, MIFARE Ultralight C uses a widely adopted standard, enabling easy integration in existing infrastructures. The integrated Triple DES authentication provides an effective countermeasure against cloning.</p>\n" 
+                "<h3><strong>Key Features:</strong></h3>\n" 
+                "<ul style=\"list-style-type: disc;\">\n" 
+                "<li><span style=\"color: #000000;\">Fully compliant with ISO/IEC 14443 parts 1-3, Type A (including anti-collision)</span></li>\n" 
+                "<li><span style=\"color: #000000;\">1536 bits (192 bytes) EEPROM memory</span></li>\n" 
+                "<li><span style=\"color: #000000;\">Protected data access via 3-pass Triple DES authentication</span></li>\n" 
+                "<li><span style=\"color: #000000;\">Memory structure as in MIFARE Ultralight (pages of 4 byte)</span></li>\n" 
+                "<li><span style=\"color: #000000;\">Backwards compatibility to MIFARE Ultralight due to compatible command set</span></li>\n" 
+                "<li><span style=\"color: #000000;\">16 bit one-way counter</span></li>\n" 
+                "<li><span style=\"color: #000000;\">Unique 7 byte serial number (UID)</span></li>\n" 
+                "</ul>\n" 
+                "<p><span style=\"color: #000000;\">Key applications for MIFARE Ultralight C are Public Transportation, Event Ticketing, Loyalty and NFC Forum Tag Type 2.</span></p>\n" 
+                "<h3><span id=\"MIFARE_DESFire\" class=\"mw-headline\">MIFARE DESFire:</span></h3>\n" 
+                "<p>The MIFARE DESFire (MF3ICD40) was introduced in 2002 and is based on a core similar to SmartMX, with more hardware and software security features than MIFARE Classic. It comes pre-programmed with the general purpose MIFARE DESFire operating system which offers a simple directory structure and files. They are sold in four variants: one with Triple-DES only and 4 KB of storage, and three with AES (2, 4 or 8 KB; see MIFARE DESFire EV1). The AES variants have additional security features. MIFARE DESFire uses a protocol compliant with ISO/IEC 14443-4.&nbsp;The card is based on an 8051 processor&nbsp;with 3DES/AES crypto accelerator, making very fast transactions possible.</p>\n" 
+                "<p>The maximal read/write distance between card and reader is 10 centimetres (3.9&nbsp;in), but actual distance depends on the field power generated by the reader and its antenna size.</p>\n" 
+                "<p>In 2010 NXP announced the discontinuation of the MIFARE DESFire (MF3ICD40) after it had introduced its successor MIFARE DESFire EV1 late 2008. In October 2011 researchers of Ruhr University Bochum announced that they had broken the security of MIFARE DESFire (MF3ICD40), which was acknowledged by NXP.</p>\n" 
+                "<h3><span id=\"MIFARE_DESFire_EV1\" class=\"mw-headline\">MIFARE DESFire EV1:</span></h3>\n" 
+                "<p><span class=\"mw-headline\">previously called DESFire8</span></p>\n" 
+                "<p>New evolution of MIFARE DESFire card, broadly backwards compatible. Available with 2&nbsp;KB, 4&nbsp;KB and 8&nbsp;KB NV-Memory. Other features include:</p>\n" 
+                "<ul>\n" 
+                "<li>Support for random ID</li>\n" 
+                "<li>Support for 128-bit AES</li>\n" 
+                "<li>Hardware and Operating System is Common Criteria&nbsp;certified at level EAL&nbsp;4</li>\n" 
+                "</ul>\n" 
+                "<p>MIFARE DESFire EV1 was publicly announced in November 2006.</p>\n" 
+                "<p><strong>Key applications:</strong></p>\n" 
+                "<ul>\n" 
+                "<li>Advanced public transportation</li>\n" 
+                "<li>Access management</li>\n" 
+                "<li>Loyalty</li>\n" 
+                "<li>Micropayment</li>\n" 
+                "</ul>\n" 
+                "<h3><span id=\"MIFARE_DESFire_EV2\" class=\"mw-headline\">MIFARE DESFire EV2</span></h3>\n" 
+                "<p>New evolution of MIFARE DESFire card, broadly backwards compatible.&nbsp;New features include:</p>\n" 
+                "<ul>\n" 
+                "<li>MIsmartApp enabling to offer or sell memory space for additional applications of 3rd parties without the need to share secret keys</li>\n" 
+                "<li>Transaction MAC to authenticate transactions by 3rd parties</li>\n" 
+                "<li>Virtual Card Architecture for privacy protection</li>\n" 
+                "<li>Proximity check against relay attacks</li>\n" 
+                "</ul>\n" 
+                "<p>MIFARE DESFire EV2 was publicly announced in March 2016.</p>\n" 
+                "<h3><span id=\"MIFARE_Plus\" class=\"mw-headline\">MIFARE Plus</span></h3>\n" 
+                "<p>MIFARE Plus is a replacement card for the MIFARE Classic. It provides an easy upgrade of existing infrastructures toward high security. Data management is identical to the MIFARE Classic; however, the security management requires the modification of the installed reader base. Other features include:</p>\n" 
+                "<ul>\n" 
+                "<li>2&nbsp;Kbytes or 4&nbsp;Kbytes of memory</li>\n" 
+                "<li>7 or 4 bytes UID, with optional support for random UID</li>\n" 
+                "<li>Support for 128-bit AES</li>\n" 
+                "<li>Common Criteria certified at level EAL 4</li>\n" 
+                "<li>MIFARE Plus S for simple migration or MIFARE Plus X with many eXpert commands</li>\n" 
+                "<li>Security upgrade with cards in the field.</li>\n" 
+                "</ul>\n" 
+                "<p><strong>Key applications:</strong></p>\n" 
+                "<ul>\n" 
+                "<li>Public Transportation</li>\n" 
+                "<li>Access management, e.g. employee, school or&nbsp;campus cards</li>\n" 
+                "<li>Electronic toll collection</li>\n" 
+                "<li>Car parking</li>\n" 
+                "<li>Loyalty programs</li>\n" 
+                "</ul>\n" 
+                "<p>It is less flexible than MIFARE DESFire EV1.</p>\n" 
+                "<p>MIFARE Plus was publicly announced in March 2008 with first samples in Q1 2009.</p>\n" 
+                "<p>MIFARE Plus, when used in older transportation systems that do not yet support AES on the reader side, still leaves an open door to attacks. Though it helps to mitigate threats from attacks that broke the Crypto-1&nbsp;cipher through the weak random number generator, it does not help against brute force attacks and cryptoanalytic attacks.&nbsp;During the transition period from MIFARE Classic to MIFARE Plus where only a few readers might support AES in the first place, it offers an optional AES authentication in Security Level 1 (which is in fact MIFARE Classic operation). This does not prevent the attacks mentioned above but enables a secure mutual authentication between the reader and the card to prove that the card belongs to the system and is not fake. In its highest security level SL3, using 128-bit AES encryption, MIFARE Plus is secured from attacks.</p>\n"
+        ]]>
+    </string>
+</resources>

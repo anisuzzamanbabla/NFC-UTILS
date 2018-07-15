@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "4110020014",
+    "firebase_url": "https://nfc-io-e8250.firebaseio.com",
+    "project_id": "nfc-io-e8250",
+    "storage_bucket": "nfc-io-e8250.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4110020014:android:d8bec0b1320602ca",
+        "android_client_info": {
+          "package_name": "com.nfcutils.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4110020014-pmjn83601uev9c78o2nkdpuv6uca2abt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4MFS73v4YYDn1mhQhYTBDCbMFPYfPJvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

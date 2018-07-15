@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFC I/O</string>
+    <string name="title_activity_main">Zuhause</string>
+    <string name="title_activity_details">Mifare Classic 1k</string>
+    <string name="title_activity_mifare_ultralight_c">Mifare Ultralight C</string>
+    <string name="title_activity_mifare_classic1k_write">Mifare Classic 1k</string>
+    <string name="title_activity_mifare_ultralight_cwrite">Karte</string>
+    <string name="mifare_classic_1k">Mifare Classic 1k</string>
+    <string name="uid">UID</string>
+    <string name="card_type">Speicherkarten-Typ</string>
+    <string name="memory">Erinnerung</string>
+    <string name="number_of_sector">Anzahl der Sektor</string>
+    <string name="number_of_block">Anzahl der Blöcke</string>
+    <string name="sector_and_block_values">Sektor und Block-Werte:</string>
+    <string name="hex_value">Hex-Wert</string>
+    <string name="us_ascii_value">US-ASCII-Wert</string>
+    <string name="sector">Sektor</string>
+    <string name="write">Schreiben</string>
+    <string name="mifare_ultralight_c">Mifare Ultralight C</string>
+    <string name="page_size">Seitengröße</string>
+    <string name="page_count">Seitenzahl</string>
+    <string name="page_value">Seite Wert:</string>
+    <string name="page">Seite</string>
+
+    <string name="add_unit_id">ca-app-pub-9124248919308413/9465799285</string>
+    <string name="beyond_on_infinity">Beyond The Unendlichkeit</string>
+
+    <string name="uc_help_text">RED Farbblöcke (Seite # 0 bis # 3) und Seite (# 40 bis # 43) oder Seite (# 40 bis # 41) sind Hersteller Bereich. Sie können diesen Block nicht ändern. Diese Blöcke sind für OTP, Herstellerdaten, und Verriegelungs Bits. </string>
+    <string name="c_1k_help_text">RED Farbblöcke sind Herstellerbereich. Sie können diesen Block nicht ändern. Diese Blöcke werden verwendet für die Verriegelung.</string>
+    <string name="_ok">OK</string>
+    <string name="no_nfc">Um diese Anwendung ausführen muss Ihr Gerät NFC-Technologie haben. Leider ist Ihr Gerät hat NFC.Sorry nicht für diese Unannehmlichkeit. Bitte drücken Sie auf OK, um zu beenden.</string>
+    <string name="nfc_disabled">Ohne NFC können Sie nicht Tags.Currently NFC ist nicht aktiviert in Ihrem Gerät lesen. Bitte gehen Sie auf die NFC-Einstellungen und ermöglichen NFC.</string>
+    <string name="tap_your_card">Tippen Sie Ihre Karte</string>
+    <string name="nfc_write">NFC schreiben</string>
+    <string name="authentication_failed">Authentifizierung fehlgeschlagen! Bitte versuchen Sie es mit einer anderen Karte.</string>
+    <string name="app_exit">Sind Sie wirklich NFC I / O verlassen wollen?</string>
+    <string name="_cancel">Stornieren</string>
+    <string name="welcome_nfc_note">Willkommen bei NFC-Welt!</string>
+    <string name="about_us">Über uns</string>
+    <string name="menu">Menü</string>
+    <string name="tag_info">Tag-Info</string>
+    <string name="title_activity_tag_info">Tag Information</string>
+    <string name="title_activity_about_us">Über uns</string>
+    <string name="title_tag_info_dialog">Tag Information</string>
+    <string name="title_activity_tag_info_classic1k">Mifare Classic Tag-Info</string>
+
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_tag_info_ultralight_c">Mifare Ultralight Tag-Info</string>
+    <string name="tag_discover">Tag Entdecken</string>
+    <string name="card_tag_not_found">Es tut uns leid! Dieser Tag ist uns nicht bekannt. Bitte versuchen Sie es mit einem anderen Karte.</string>
+    <string name="card_support">Karten-Unterstützung</string>
+    <string name="supported_tag_type">Leider nur Mifare Classic 1k und Mifare Ultralight C sind in dieser Anwendungen unterstützt.</string>
+    <string name="card_info">Karteninformationen</string>
+    <string name="card_info_not_found">Es tut uns leid! Card Information nicht gefunden. Bitte versuchen Sie es mit einem anderen Karte.</string>
+    <string name="eng_lang">English (United States)</string>
+    <string name="bang_lang">বাংলা</string>
+    <string name="germ_lang">German</string>
+    <string name="span_lang">Spain</string>
+    <string name="frnch_lang">France</string>
+    <string name="rush_lang">Russia</string>
+    <string name="resticted_lang">Diese Funktion ist nur pro-Version verfügbar.</string>
+    <string name="language_change">Sprachwechsel</string>
+    <string name="recommend_to_a_friend">Empfehlen Sie einem Freund</string>
+    <string name="lang_change_diaglog">Sprachänderungen</string>
+    <string name="dialog_wait_mess">Warten Sie mal...</string>
+    <string name="adapter_sector_number">Sektor Nr.</string>
+    <string name="adapter_null">" NULL"</string>
+    <string name="adapter_page1">Seite 0 bis 3</string>
+    <string name="adapter_page2">Seite 40 bis 43</string>
+    <string name="adapter_page3">Seite 40 bis 41</string>
+    <string name="to">" bis "</string>
+    <string name="write_1_value">Schreiben Sie Block # 1 Wert</string>
+    <string name="write_2_values">Schreiben Sie Block # 2 Wert</string>
+    <string name="write_block">Schreibblock #</string>
+    <string name="values">" Wert"</string>
+    <string name="write_page">Seite schreiben #</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_language_change">Change Language</string>
+    <string name="app_share">Yahoo !!! Ich verwende diese apps für die Kontrolle meiner NFC-Karte, können Sie versuchen, diese. Es ist so einfach und sehr benutzerfreundlich. \n\nhttps://play.google.com/store/apps/details?id=com.nfcutils.app</string>
+
+</resources>

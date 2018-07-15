@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/languageChangeText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:layout_margin="10dp"
+    android:checkMark="?android:attr/listChoiceIndicatorSingle"
+    android:text="English">
+
+</CheckedTextView>

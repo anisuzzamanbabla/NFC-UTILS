@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.nfcutils.app">
+
+    <uses-sdk tools:overrideLibrary="com.hanks.htextview" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <application
+        android:name=".base.NFCIOApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MifareClassicDetailsActivity"
+            android:label="@string/title_activity_details"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.MifareUltralightCActivity"
+            android:label="@string/title_activity_mifare_ultralight_c"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.MifareClassic1kWriteActivity"
+            android:label="@string/title_activity_mifare_classic1k_write"
+            android:parentActivityName=".activity.MifareClassicDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MifareClassicDetailsActivity" />
+        </activity>
+        <activity
+            android:name=".activity.MifareUltralightCWriteActivity"
+            android:label="@string/title_activity_mifare_ultralight_cwrite"
+            android:parentActivityName=".activity.MifareUltralightCActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MifareUltralightCActivity" />
+        </activity>
+        <activity
+            android:name=".activity.AboutUSActivity"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nfcutils.app.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.TagInfoClassic1kActivity"
+            android:label="@string/title_activity_tag_info_classic1k"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nfcutils.app.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.TagInfoUltralightCActivity"
+            android:label="@string/title_activity_tag_info_ultralight_c"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nfcutils.app.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nfcutils.app.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.LanguageChangeActivity"
+            android:label="@string/title_activity_language_change"
+            android:parentActivityName=".activity.SettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nfcutils.app.activity.SettingsActivity" />
+        </activity>
+    </application>
+
+</manifest>
